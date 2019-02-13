@@ -1,0 +1,3 @@
+[submodule "Blengine/vendor/spdlog"]
+	path = Blengine/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
