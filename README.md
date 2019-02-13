@@ -5,3 +5,4 @@ Game engine designs for block games.
 * GLFW
 * GLEW
 * GLM
+* spdlog
