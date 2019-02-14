@@ -12,14 +12,14 @@
 #	error Blengine only supports Windows!
 #endif
 
-#ifdef BL_DEBUG
-#	define HZ_ENABLE_ASSERTS
+#ifdef BE_DEBUG
+#	define BE_ENABLE_ASSERTS
 #endif
 
-#ifdef BL_ENABLE_ASSERTS
-#	define BL_ASSERT(x, ...) { if(!(x)) { HZ_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
-#	define BL_CORE_ASSERT(x, ...) { if(!(x)) { HZ_CORE_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
+#ifdef BE_ENABLE_ASSERTS
+#	define BE_ASSERT(x, ...) { if(!(x)) { BE_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
+#	define BE_CORE_ASSERT(x, ...) { if(!(x)) { BE_CORE_ERROR("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); } }
 #else
-#	define BL_ASSERT(x, ...)
-#	define BL_CORE_ASSERT(x, ...)
+#	define BE_ASSERT(x, ...)
+#	define BE_CORE_ASSERT(x, ...)
 #endif
