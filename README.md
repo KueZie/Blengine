@@ -3,6 +3,6 @@ Game engine designs for block games.
 
 # Dependencies
 * GLFW
-* GLEW
+* GLAD
 * GLM
 * spdlog
