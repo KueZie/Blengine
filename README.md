@@ -1,5 +1,5 @@
 # Blengine
-Game engine designs for block games.
+Game engine designed for block games.
 
 # Dependencies
 * GLFW
