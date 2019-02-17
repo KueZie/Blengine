@@ -1,3 +1,12 @@
 [submodule "Blengine/vendor/spdlog"]
 	path = Blengine/vendor/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "Blengine/vendor/GLFW"]
+	path = Blengine/vendor/GLFW
+	url = https://github.com/glfw/glfw.git
+[submodule "Blengine/vendor/glm"]
+	path = Blengine/vendor/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "Blengine/vendor/glad"]
+	path = Blengine/vendor/glad
+	url = https://github.com/Dav1dde/glad.git
